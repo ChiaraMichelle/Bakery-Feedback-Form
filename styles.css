@@ -1,0 +1,87 @@
+html {
+  background-image: url(https://images.unsplash.com/photo-1515763814127-a62684488637?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  block {
+    display: block;
+  }
+  
+  #suggestions {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  fieldset {
+    border: none;
+    border-bottom: 1.5px dotted #229954;
+    padding: 2em 0.5em;
+  }
+  
+  div {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 50%;
+    padding: 0.1em 1.5em;
+    max-width: 500px;
+    min-width: 300px;
+    margin-top: 3.5em;
+    margin-bottom: 3.5em;
+  }
+  
+  #title {
+   font-size: 4em;
+   font-family: 'Raleway Dots', cursive;
+   text-align: center;
+   color: #E30B5C;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  #survey-form {
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    font-size: 1em;
+  }
+  
+  #description {
+    font-size: 1.2em;
+   font-family: 'Raleway Dots', cursive;
+    text-align: center;
+    color: #229954;
+    font-weight: bold;
+    
+  
+  }
+  
+  
+  #submit {
+    background-color: #E30B5C;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    padding: 1em;
+    margin: 1em;
+    border-color: rgba(255, 255, 255, 0.9);
+    border-radius: 30px;
+    font-weight: bold;
+  }
+  
+  fieldset:last-of-type {
+    border:rgba(255, 255, 255, 0.9);
+  }
+  
+  p:last-of-type {
+   color: #229954; 
+    font-family: 'Raleway Dots', cursive;
+  }
+  
+  textarea {
+    margin-top: 1em;
+    font-family: Arial;
+  }
+  

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title>Coco's Bakery - Customer Feedback Form</title>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="styles.css"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Fira+Sans:wght@300&family=Raleway+Dots&display=swap" rel="stylesheet">
+   </head>
+  <body>
+    <div>
+  <h1 id="title">Coco's Bakery</h1>
+  <p id="description">Your opinion is important to us! &#x2764;</p>
+  <form id="survey-form">
+    <fieldset>
+      <br>
+    <label class="block bold" for="name" id="name-label">Please fill in your full name
+      <input id="name" type="text" placeholder="Sally Sue" required/></label>
+      <br><br><br>
+    <label for="email" id="email-label" class="block bold">Your e-mail address
+      <input id="email" type="email" placeholder="sallysue@email.com" required/></label>
+      <br><br><br>
+    <label for="number" id="number-label" class="block bold">How old are you?
+      <input id="number" type="number" min="13" max="120" placeholder="Age" required/></label>
+      <br><br><br>
+       <label for="dropdown" id="dropdown-label" class="block bold">How did you hear about us?
+      <select id="dropdown" name="dropdown" required>
+      <option value="">(select one)</option>
+      <option value="1">Word of mouth</option>
+      <option value="2">Instagram</option>
+      <option value="3">Facebook</option>
+      <option value="4">Other social media</option>
+      <option value="5">Radio</option>
+      <option value="6">Search engine</option>
+      <option value="7">Other social media</option>
+      </select>
+      </label>
+      </fieldset>
+      <fieldset>
+        <br>
+        <label for="rate-cleanliness" class="block bold">How would you rate the cleanliness of our bakeshop?</label>
+          <br><br>
+        <label for="clean-excellent"><input id="clean-excellent" type="radio" name="rate-cleanliness" value="clean-excellent" required>Excellent</label>
+        <label for="clean-good"><input id="clean-good" name="rate-cleanliness" type="radio" value="clean-good" required>Good</label>
+        <br>
+        <label for="clean-fair"><input id="clean-fair" name="rate-cleanliness" type="radio" value="clean-fair" required>Fair</label>
+        <label for="clean-poor"><input id="clean-poor" name="rate-cleanliness" type="radio" value="clean-poor" required>Poor</label>
+        <br><br><br>
+        <label for="rate-staff" class="block bold">How would you rate the friendliness and professionalism of our staff?</label>
+        <br><br>
+        <label for="staff-excellent"><input id="staff-excellent" type="radio" name="rate-staff" value="staff-excellent" required>Excellent</label>
+        <label for="staff-good"><input id="staff-good" name="rate-staff" type="radio" value="staff-good" required>Good</label>
+        <br>
+        <label for="staff-fair"><input id="staff-fair" name="rate-staff" type="radio" value="staff-fair" required>Fair</label>
+        <label for="staff-poor"><input id="staff-poor" name="rate-staff" type="radio" value="staff-poor" required>Poor</label>
+        </fieldset>
+        <fieldset>
+            <label for="tried" class="block bold">What have you tried?</label>
+              <br>
+              <br>
+            <label for="layer-cakes"><input id="layer-cakes" type="checkbox" name="tried" value="tried-layercakes"> Layer Cakes</label>
+            <br><br><label for="cookies"><input id="cookies" type="checkbox" name="tried" value="tried-cookies"> Cookies</label>
+            <br><br>
+             <label for="muffins"><input id="muffins" type="checkbox" name="tried" value="tried-muffins"> Muffins</label><br><br>
+              <label for="cheesecakes"><input id="cheesecakes" type="checkbox" name="tried" value="tried-cheesecakes"> Cheesecakes</label>
+              <br><br>
+               <label for="pies-tarts"><input id="pies-tarts" type="checkbox" name="tried" value="tried-piestarts"> Pies & Tarts</label>
+                <br><br><label for="cannolis"><input id="cannolis" type="checkbox" name="tried" value="tried-cannolis"> Cannolis</label>
+                <br><br>
+                 <label for="cupcakes"><input id="cupcakes" type="checkbox" name="tried" value="tried-cupcakes"> Cupcakes</label>
+                  <br><br><label for="macarons"><input id="macarons" type="checkbox" name="tried" value="tried-macarons"> Macarons</label>
+                  <br><br>
+                   <label for="tiramisu"><input id="tiramisu" type="checkbox" name="tried" value="tried-tiramisu"> Tiramisu</label>
+                   <br><br>
+                    <label for="brownies"><input id="brownies" type="checkbox" name="tried" value="tried-brownies"> Brownies</label>
+                    <br><br>
+                    <label for="cinnamon-rolls"><input id="cinnamon-rolls" type="checkbox" name="tried" value="tried-cinnamonrolls"> Cinnamon rolls</label>
+                    <br><br>
+                    <label for="doughnuts"><input id="doughnuts" type="checkbox" name="tried" value="tried-doughnuts"> Doughnuts</label>
+                    <br><br>
+                    <label for="loaves"><input id="loaves" type="checkbox" name="tried" value="tried-loaves"> Loaves</label>
+
+            </fieldset>
+             <fieldset>
+          <label for="recommendation" class="block bold">Would you recommend us to your friends?<br><br></label>
+          <label for="yes"><input id="yes" name="recommendation" value="yes" type="radio" required> Yes</label>
+            <label for="no"><input id="no" name="recommendation" value="no" type="radio" required> No</label>
+              <br><br><br>
+              <label for="suggestions" class="block bold">How can we improve your experience as a customer?<textarea id="suggestions" name="suggestions" rows="3" cols="30" placeholder="More cookies!" class="block">
+                </textarea>
+              </fieldset>
+              <p class="bold">Thank You!</p>
+             <button id="submit" type="submit">Submit</button>
+  </form>
+  </div>
+  </body>
+  </html>
