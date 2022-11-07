@@ -4,7 +4,7 @@ html {
   background-size: cover;
   }
   
-  block {
+  .block {
     display: block;
   }
   
@@ -75,7 +75,7 @@ html {
     border:rgba(255, 255, 255, 0.9);
   }
   
-  p:last-of-type {
+  #thanks {
    color: #229954; 
     font-family: 'Raleway Dots', cursive;
   }
